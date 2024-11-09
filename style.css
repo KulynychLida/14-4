@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  li {
+    list-style: none;
+  }
+  .chiled {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  .box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: #80d9ff;
+    width: 700px;
+    height: 700px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+  }
